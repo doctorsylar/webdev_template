@@ -3,14 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>WebDev</title>
 </head>
 <body>
 <div class="head">
-    <header class="flex">
+    <header class="grid">
         <div class="header-logo">
             <a href="#">MYCOMPANY</a>
+        </div>
+        <div class="toggler">
+            <i class="fa fa-bars" id="menu-toggler"></i>
         </div>
         <nav class="header-menu">
             <ul class="flex">
@@ -47,10 +52,215 @@
         <img src="./img/mac.png" alt="mac">
     </div>
     <div class="about-text">
-        <h2>SOME WORDS <b>ABOUT US</b></h2>
+        <h3>SOME WORDS <b>ABOUT US</b></h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, exercitationem libero maxime modi neque numquam?
+        </p>
+        <ul class="about-text-list">
+            <li>
+                <b>Mission -</b> <i>We deliver uniqueness and quality</i>
+            </li>
+            <li>
+                <b>Skills -</b> <i>Delivering fast and excellent results</i>
+            </li>
+            <li>
+                <b>Clients -</b> <i>Satisfied clients thanks to our experience</i>
+            </li>
+        </ul>
     </div>
 
 </div>
+<div class="team">
+    <h2>OUR TEAM</h2>
+    <div class="team-members grid">
+        <div class="member">
+            <img src="./img/employee.png" alt="employee">
+            <div>
+                <b class="employee-name">Vlad Ivanov</b>
+            </div>
+            <div>
+                <span class="employee-post">Designer</span>
+            </div>
+            <div>
+                <p class="employee-description">
+                    Do not seek to change what has come before. Seek to create that which has not.
+                </p>
+            </div>
+        </div>
+        <div class="member">
+            <img src="./img/employee.png" alt="employee">
+            <div>
+                <b class="employee-name">Vlad Ivanov</b>
+            </div>
+            <div>
+                <span class="employee-post">Designer</span>
+            </div>
+            <div>
+                <p class="employee-description">
+                    Do not seek to change what has come before. Seek to create that which has not.
+                </p>
+            </div>
+        </div>
+        <div class="member">
+            <img src="./img/employee.png" alt="employee">
+            <div>
+                <b class="employee-name">Vlad Ivanov</b>
+            </div>
+            <div>
+                <span class="employee-post">Designer</span>
+            </div>
+            <div>
+                <p class="employee-description">
+                    Do not seek to change what has come before. Seek to create that which has not.
+                </p>
+            </div>
+        </div>
+        <div class="member">
+            <img src="./img/employee.png" alt="employee">
+            <div>
+                <b class="employee-name">Vlad Ivanov</b>
+            </div>
+            <div>
+                <span class="employee-post">Designer</span>
+            </div>
+            <div>
+                <p class="employee-description">
+                    Do not seek to change what has come before. Seek to create that which has not.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="services">
+    <h2>OUR SERVICES</h2>
+    <p class="services-description">
+        <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, iste nesciunt? Accusantium architecto commodi dolores doloribus ea eaque eveniet incidunt magnam, minus nam natus nostrum officiis, porro quaerat qui quos saepe sed soluta totam voluptatum. A iure maiores molestiae nesciunt non nostrum praesentium? Autem beatae, hic id nesciunt obcaecati quae. Aperiam assumenda cupiditate distinctio, doloremque fugit molestiae molestias nisi obcaecati sunt ut. Accusantium beatae dolore error et nam quasi quibusdam!</i>
+    </p>
+    <div class="services-list grid">
+        <div class="service">
+            <div class="service-logo">
+                <img src="./img/pc-c.png" alt="web-design">
+            </div>
+            <h3>WEB DESIGN</h3>
+            <div class="service-content">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem et natus nemo odit quos! Accusantium cum dolorem officia omnis perferendis, quam quibusdam quis sequi sunt.
+                </p>
+            </div>
+        </div>
+        <div class="service">
+            <div class="service-logo">
+                <img src="./img/mob-c.png" alt="web-design">
+            </div>
+            <h3>MOBILE APPS</h3>
+            <div class="service-content">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem et natus nemo odit quos! Accusantium cum dolorem officia omnis perferendis, quam quibusdam quis sequi sunt.
+                </p>
+            </div>
+        </div>
+        <div class="service">
+            <div class="service-logo">
+                <img src="./img/photo-c.png" alt="web-design">
+            </div>
+            <h3>PHOTOGRAPHY</h3>
+            <div class="service-content">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem et natus nemo odit quos! Accusantium cum dolorem officia omnis perferendis, quam quibusdam quis sequi sunt.
+                </p>
+            </div>
+        </div>
+        <div class="service">
+            <div class="service-logo">
+                <img src="./img/market-c.png" alt="web-design">
+            </div>
+            <h3>MARKETING</h3>
+            <div class="service-content">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem et natus nemo odit quos! Accusantium cum dolorem officia omnis perferendis, quam quibusdam quis sequi sunt.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="clients">
+    <h2>SOME OF <b>OUR CLIENTS</b></h2>
+    <div class="clients-list flex">
+        <img src="./img/logo-chanel.png" alt="chanel" class="client">
+        <img src="./img/logo-zara.png" alt="zara" class="client">
+        <img src="./img/logo-guerlain.png" alt="guerlain" class="client">
+        <img src="./img/logo-lancome.png" alt="lancome" class="client">
+        <img src="./img/logo-lacoste.png" alt="lacoste" class="client">
+    </div>
+</div>
+<div class="work">
+    <h2>TAKE A LOOK AT <b>OUR WORK</b></h2>
+    <p class="work-description">
+        <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, iste nesciunt? Accusantium architecto commodi dolores doloribus ea eaque eveniet incidunt magnam, minus nam natus nostrum officiis, porro quaerat qui quos saepe sed soluta totam voluptatum. A iure maiores molestiae nesciunt non nostrum praesentium? Autem beatae, hic id nesciunt obcaecati quae. Aperiam assumenda cupiditate distinctio, doloremque fugit molestiae molestias nisi obcaecati sunt ut. Accusantium beatae dolore error et nam quasi quibusdam!</i>
+    </p>
+    <div class="works-list grid">
+        <img src="./img/work1.png" alt="work1">
+        <img src="./img/work1.png" alt="work1">
+        <img src="./img/work1.png" alt="work1">
+        <img src="./img/work1.png" alt="work1">
+        <img src="./img/work2.png" alt="work2">
+        <img src="./img/work2.png" alt="work2">
+        <img src="./img/work2.png" alt="work2">
+        <img src="./img/work2.png" alt="work2">
+        <img src="./img/work3.png" alt="work3">
+        <img src="./img/work3.png" alt="work3">
+        <img src="./img/work3.png" alt="work3">
+        <img src="./img/work3.png" alt="work3">
+    </div>
+</div>
+<div class="testimonials">
+    <h2><b>OUR CLIENTS'</b> TESTIMONIALS</h2>
+    <div class="testimonial">
+        <p class="text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad alias aliquam atque debitis esse excepturi facere fuga hic incidunt inventore itaque laboriosam molestias nisi qui quod recusandae repellat sequi suscipit tempora tempore veniam, voluptates.
+        </p>
+        <p>
+            <strong>Dean Martin</strong>, CEO Acme Inc.
+        </p>
+    </div>
+</div>
+<div class="contact-form">
+    <h2>CONTACT US</h2>
+    <p class="contact-description">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda dicta dolor facere fugit in incidunt ipsa minima, minus molestiae officia officiis placeat quasi quod quos recusandae reprehenderit saepe sapiente!
+    </p>
+    <div class="contact-form-container">
+        <form action="" method="post" target="_self">
+            <div class="inputs flex">
+                <div class="input-name">
+                    <label for="input-name">Name </label> <br/>
+                    <input id="input-name" type="text" required>
+                </div>
+                <div class="input-email">
+                    <label for="input-email">Email address </label> <br/>
+                    <input id="input-email" type="email" required>
+                </div>
+            </div>
+            <div class="text-area">
+                <label class="textarea-label" for="message">Message</label> <br>
+                <textarea id="message" rows="6" required></textarea>
+            </div>
+            <div class="button-container">
+                <button type="submit" class="form-submit-button">SEND</button>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="contacts">
+    <div>
+        <a href="#"><img src="./img/facebook.png"></a>
+        <a href="#"><img src="./img/twitter.png"></a>
+        <a href="#"><img src="./img/google.png"></a>
+        <a href="#"><img src="./img/linkedin.png"></a>
+        <a href="#"><img src="./img/dribbble.png"></a>
+    </div>
+</div>
 
+<script src="./js/script.js"></script>
 </body>
 </html>
