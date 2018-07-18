@@ -9,7 +9,7 @@
     <title>WebDev</title>
 </head>
 <body>
-<div class="head">
+<div class="head" id="head">
     <header class="grid">
         <div class="header-logo">
             <a href="#">MYCOMPANY</a>
@@ -20,22 +20,22 @@
         <nav class="header-menu">
             <ul class="flex">
                 <li class="menu-item">
-                    <a href="#">HOME</a>
+                    <a href="#head">HOME</a>
                 </li>
                 <li class="menu-item">
-                    <a href="#">ABOUT</a>
+                    <a href="#about">ABOUT</a>
                 </li>
                 <li class="menu-item">
-                    <a href="#">SERVICES</a>
+                    <a href="#services">SERVICES</a>
                 </li>
                 <li class="menu-item">
-                    <a href="#">PORTFOLIO</a>
+                    <a href="#portfolio">PORTFOLIO</a>
                 </li>
                 <li class="menu-item">
-                    <a href="#">TESTIMONIALS</a>
+                    <a href="#testimonials">TESTIMONIALS</a>
                 </li>
                 <li class="menu-item">
-                    <a href="#">CONTACT</a>
+                    <a href="#contact">CONTACT</a>
                 </li>
             </ul>
         </nav>
@@ -47,7 +47,7 @@
         </p>
     </div>
 </div>
-<div class="about flex">
+<div class="about grid animated" id="about">
     <div class="about-pic">
         <img src="./img/mac.png" alt="mac">
     </div>
@@ -70,7 +70,7 @@
     </div>
 
 </div>
-<div class="team">
+<div class="team animated">
     <h2>OUR TEAM</h2>
     <div class="team-members grid">
         <div class="member">
@@ -131,7 +131,7 @@
         </div>
     </div>
 </div>
-<div class="services">
+<div class="services animated" id="services">
     <h2>OUR SERVICES</h2>
     <p class="services-description">
         <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, iste nesciunt? Accusantium architecto commodi dolores doloribus ea eaque eveniet incidunt magnam, minus nam natus nostrum officiis, porro quaerat qui quos saepe sed soluta totam voluptatum. A iure maiores molestiae nesciunt non nostrum praesentium? Autem beatae, hic id nesciunt obcaecati quae. Aperiam assumenda cupiditate distinctio, doloremque fugit molestiae molestias nisi obcaecati sunt ut. Accusantium beatae dolore error et nam quasi quibusdam!</i>
@@ -183,7 +183,7 @@
         </div>
     </div>
 </div>
-<div class="clients">
+<div class="clients animated">
     <h2>SOME OF <b>OUR CLIENTS</b></h2>
     <div class="clients-list flex">
         <img src="./img/logo-chanel.png" alt="chanel" class="client">
@@ -193,7 +193,7 @@
         <img src="./img/logo-lacoste.png" alt="lacoste" class="client">
     </div>
 </div>
-<div class="work">
+<div class="work animated" id="portfolio">
     <h2>TAKE A LOOK AT <b>OUR WORK</b></h2>
     <p class="work-description">
         <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, iste nesciunt? Accusantium architecto commodi dolores doloribus ea eaque eveniet incidunt magnam, minus nam natus nostrum officiis, porro quaerat qui quos saepe sed soluta totam voluptatum. A iure maiores molestiae nesciunt non nostrum praesentium? Autem beatae, hic id nesciunt obcaecati quae. Aperiam assumenda cupiditate distinctio, doloremque fugit molestiae molestias nisi obcaecati sunt ut. Accusantium beatae dolore error et nam quasi quibusdam!</i>
@@ -213,7 +213,7 @@
         <img src="./img/work3.png" alt="work3">
     </div>
 </div>
-<div class="testimonials">
+<div class="testimonials animated" id="testimonials">
     <h2><b>OUR CLIENTS'</b> TESTIMONIALS</h2>
     <div class="testimonial">
         <p class="text">
@@ -224,7 +224,7 @@
         </p>
     </div>
 </div>
-<div class="contact-form">
+<div class="contact-form animated" id="contact">
     <h2>CONTACT US</h2>
     <p class="contact-description">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda dicta dolor facere fugit in incidunt ipsa minima, minus molestiae officia officiis placeat quasi quod quos recusandae reprehenderit saepe sapiente!
@@ -251,7 +251,7 @@
         </form>
     </div>
 </div>
-<div class="contacts">
+<div class="contacts animated">
     <div>
         <a href="#"><img src="./img/facebook.png"></a>
         <a href="#"><img src="./img/twitter.png"></a>
@@ -260,7 +260,10 @@
         <a href="#"><img src="./img/dribbble.png"></a>
     </div>
 </div>
-
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Scroll Reveal CDN-->
+<script src="https://unpkg.com/scrollreveal@3.4.0/dist/scrollreveal.min.js"></script>
 <script src="./js/script.js"></script>
 </body>
 </html>

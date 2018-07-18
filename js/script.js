@@ -10,3 +10,16 @@ menuToggler.onclick = function () {
         menuCont.classList.remove('shown');
     }
 };
+// Animated revealing
+window.sr = ScrollReveal();
+sr.reveal('.animated');
+
+// jQuery
+$(function () {
+    $('.header-menu .menu-item a').click(function (event) {
+        event.preventDefault();
+        let id = $(this).attr('href');
+        let top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 500);
+    });
+});
