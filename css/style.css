@@ -10,7 +10,6 @@ a {
 body {
     text-align: center;
     line-height: 24px;
-    /*position: relative;*/
 }
 body > * {
     padding: 0 12% 0 12%;
@@ -284,7 +283,12 @@ h2::after {
     border: 2px solid #fcac45;
     border-radius: 10%;
 }
-
+#home:hover {
+    background-color: #d4d4d4;
+    padding: 10px 14px;
+    bottom: 16px;
+    right: 16px;
+}
 
 
 
@@ -353,7 +357,6 @@ h2::after {
     }
     /* ABOUT */
     .about {
-        /*grid-template-columns: 30% auto;*/
         padding-right: 2%;
     }
 
