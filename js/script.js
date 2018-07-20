@@ -41,4 +41,4 @@ $(function () {
 });
 
 // page loadtime checker
-performance.now();
+console.log(performance.now());
