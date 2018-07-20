@@ -39,3 +39,6 @@ $(function () {
         }
     });
 });
+
+// page loadtime checker
+performance.now();
