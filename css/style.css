@@ -239,6 +239,11 @@ h2::after {
 .contact-form .contact-form-container .inputs * {
     width: 48%;
 }
+.contact-form .contact-form-container input,
+.contact-form .contact-form-container textarea {
+    padding: 2px 5px;
+}
+
 .contact-form .contact-form-container label::after {
     content: '*';
     color: red;
